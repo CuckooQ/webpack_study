@@ -1,0 +1,10 @@
+$orange: orange;
+
+body {
+  background-color: $orange;
+  display: flex;
+
+  &:hover {
+    background-color: blue;
+  }
+}
